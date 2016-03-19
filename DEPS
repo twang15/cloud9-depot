@@ -66,7 +66,7 @@ hooks = [
     "pattern": ".",
     "action": [
       "src/build/download_llvm.sh",
-      #"--debug-build",
+      "--debug-build",
     ],
   },
   {

@@ -29,8 +29,8 @@
 # This file is used by gclient to fetch the projects that Cloud9 depends on.
 
 vars = {
-  "libcxx_trunk":
-    "http://llvm.org/svn/llvm-project/libcxx/trunk",
+  #"libcxx_trunk":
+  #  "http://llvm.org/svn/llvm-project/libcxx/trunk",
   "libcxx_release31":
     "http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_31/final",
 }

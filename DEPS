@@ -50,8 +50,8 @@ deps = {
     "git+https://github.com/dslab-epfl/cloud9-boolector.git",
 
   # Testing targets
-  "src/testing_targets/libcxx":
-    Var("libcxx_trunk"),
+  #"src/testing_targets/libcxx":
+  #  Var("libcxx_trunk"),
 }
 
 

@@ -197,7 +197,8 @@ fi
 mkdir -p "${LLVM_BUILD_DIR}"
 cd "${LLVM_BUILD_DIR}"
 if [[ ! -f ./config.status ]]; then
-  ../llvm/configure CC=gcc-4.8 CXX=g++-4.8 CFLAGS="-v -O0 -g3 -ggdb3" CXXFLAGS="-v -O0 -g3 -ggdb3"\
+  ../llvm/configure CC=gcc-4.8 CXX=g++-4.8 \
+      --enable-optimized \
 			--enable-assertions \
 	    --with-binutils-include="$(readlink -f ../binutils-install/include)"
 fi
